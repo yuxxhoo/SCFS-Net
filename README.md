@@ -77,7 +77,7 @@ The configuration, training log, per-validation metrics, and newly trained check
 
 ## Evaluation
 
-No trained checkpoint is included. Evaluate your own checkpoint using:
+Run evaluation with:
 
 ```bash
 CUDA_VISIBLE_DEVICES=0 python test.py --config_file configs/MSVR310.yml MODEL.INIT_WEIGHTS False TEST.WEIGHT outputs/MSVR310/SCFSNet_best.pth
